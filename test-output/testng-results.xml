@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11811" started-at="2020-06-09T10:20:45Z" finished-at="2020-06-09T10:20:57Z">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="BuyBuyBabyTestCases.CheckSearchBox()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="CheckSearchBox" class="TestCases.BuyBuyBabyTestCases"/>
+      </group> <!-- Smoke Test -->
+      <group name="Regression">
+        <method signature="BuyBuyBabyTestCases.CheckPageTitle()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="CheckPageTitle" class="TestCases.BuyBuyBabyTestCases"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="11811" started-at="2020-06-09T10:20:45Z" finished-at="2020-06-09T10:20:57Z">
+      <class name="TestCases.BuyBuyBabyTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="setup" is-config="true" duration-ms="29677" started-at="2020-06-09T10:20:16Z" finished-at="2020-06-09T10:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckPageTitle()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="CheckPageTitle" duration-ms="6684" started-at="2020-06-09T10:20:46Z" finished-at="2020-06-09T10:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPageTitle -->
+        <test-method status="PASS" signature="CheckSearchBox()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="CheckSearchBox" duration-ms="5076" started-at="2020-06-09T10:20:52Z" finished-at="2020-06-09T10:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchBox -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.BuyBuyBabyTestCases@523884b2]" name="closeBrowser" is-config="true" duration-ms="1620" started-at="2020-06-09T10:20:58Z" finished-at="2020-06-09T10:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.BuyBuyBabyTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
